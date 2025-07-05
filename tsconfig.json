@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",                          // Đặt gốc cho alias
+    "paths": {
+      "@/*": ["./*"],                        // Dùng được với @/app, @/lib, @/components,...
+      "@components/*": ["components/*"],    // Alias riêng cho components
+      "@lib/*": ["lib/*"],                  // Alias riêng cho lib
+      "@app/*": ["app/*"]                   // Alias riêng cho app
+    },
     "lib": [
       "dom",
       "dom.iterable",

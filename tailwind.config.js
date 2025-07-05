@@ -14,3 +14,18 @@ module.exports = {
   },
   plugins: []
 };
+module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#dc2626', // 🎯 Chọn màu bạn muốn, ví dụ: đỏ tươi
+      },
+    },
+  },
+  plugins: [],
+}
