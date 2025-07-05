@@ -1,17 +1,12 @@
 // app/layout.tsx
 export const metadata = {
   title: 'Kimi Sushi',
-  description: 'Sorgfalt in jedem Schnitt – Genuss in jedem Biss',
+  description: 'Genuss in jedem Biss – Sushi Restaurant in Filderstadt',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="de">
-      <head />
       <body>{children}</body>
     </html>
   );
